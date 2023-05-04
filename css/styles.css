@@ -1,0 +1,316 @@
+body{
+	background-color: black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+
+header{
+	background-image:url(./big.jpg) ;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+#menu{display: none;
+	width:20%;
+	height: 100vh;
+	background: black;
+	position: absolute;
+	right: 0;
+
+}
+
+.screen{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: white;
+	width: 100%;
+	height:100%;
+	align-items: center;
+	
+
+}
+
+.screen2{
+	display: flex;
+	width: 80%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+
+
+
+#button1{
+	background: none;
+	border:none;
+
+}
+
+.button2{
+
+width: 80%;
+height: 7vh;
+display: flex;
+align-items: center;
+
+}
+
+
+.screen2>p{
+	margin: 5px;
+}
+
+.screen2>h3{
+	margin-top: 50px;
+}
+
+
+
+#first{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	height: 5vh;
+	align-items: center;
+
+}
+header>div>a{
+	color: white;
+	text-decoration: none;
+}
+
+header>div>button{
+	background: none;
+}
+
+
+#text{
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	color: white;
+	height: 95vh;
+	align-items: center;
+
+}
+
+main{
+display: flex;
+width: 80%;
+flex-direction: column;
+
+
+
+}
+
+#alotoftext{
+	display: flex;
+width: 60%;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+margin-left: 300px;
+
+
+}
+#alotoftext>p{
+	text-align: center;
+	color: white;
+	font-size: 27px;
+	
+
+}
+
+main>article{
+	width: 100%;
+	
+	display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+#photos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+
+}
+
+#smalls{
+	
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+
+#ourworks{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+#showall{display: flex;
+	justify-content: space-between;
+	width: 50%;
+	height: 5vh;
+	align-items: center;
+	margin-left: 350px;
+	margin-top: 60px;
+}
+
+#name{color: white;
+	text-decoration: none;
+}
+
+#girls{display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	
+	
+
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+width: 70%;
+color: white;
+}
+
+dd{margin-bottom: 20px;
+
+}
+dt{margin-left: 40px;
+font-size: 20px;
+margin-bottom: 20px;}
+
+.header{
+
+	height: 10vh;
+	width: 100%;
+	
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+
+.header>div>a{
+	color: white;
+	text-decoration: none;
+}
+
+.header>div>button{
+	background: none;
+}
+
+.main2{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.contacts{
+	
+	display: flex;
+	justify-content: space-between;
+width: 90%;
+color: white;
+flex-direction: row;
+margin-right: 40px;
+}
+
+.contacts>dl>dd{
+	font-size: 15px;
+}
+
+.lastarticle{
+	width: 100%;
+	display: flex;
+justify-content: center;
+flex-direction: column;
+
+align-items: center;
+
+}
+
+
+
+main>article>div>h1{
+	color: white;
+}
+
+
+.notlastdiv{
+	display: flex;
+	justify-content: space-between;
+	
+	width: 100%;
+	align-items: center;
+}
+
+
+
+.hairdress{
+	color: white;
+width: 45%;
+
+}
+
+h6{margin: 0px;
+font-size: 18px;}
+
+
+.hairdress>div>div>h3{
+font-size:23px;
+}
+
+.lastarticle2{
+	width: 100%;
+	display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 100px;
+align-items: center;
+
+}
+
+
+.lastarticle3{
+width: 100%;
+	display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 100px;
+margin-bottom: 100px;
+align-items: center;
+
+
+}
